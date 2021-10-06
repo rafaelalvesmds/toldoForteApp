@@ -15,10 +15,8 @@ function Menu() {
       </div>
 
       <div className={styles.options}>
-          <div className={styles.eachOption} onClick={() => router.push('/')}>Home</div>
           <div className={styles.eachOption} onClick={() => router.push('/sobre')}>Sobre</div>
-          <div className={styles.eachOption} onClick={() => router.push('/produtos')}>Produtos</div>
-          <div className={styles.eachOption} onClick={() => router.push('/projetos')}>Projetos</div>
+          <div className={styles.eachOption} onClick={() => router.push('/produtos')}>Nossos Produtos</div>
           <div className={styles.eachOption} onClick={() => router.push('/contato')}>Contato</div>
       </div>
 

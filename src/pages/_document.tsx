@@ -14,17 +14,11 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap"
             rel="stylesheet"
           />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
+          <link rel="stylesheet" href="css/gallery.theme.css" />
+          <link rel="stylesheet" href="css/gallery.min.css" />
+
         </Head>
         <body>
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
-            rel="stylesheet"
-          />
           <Main />
           <NextScript />
         </body>

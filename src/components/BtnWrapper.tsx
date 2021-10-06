@@ -9,7 +9,7 @@ export default function BtnWrapper() {
   return (
     <div className={styles.wrapper}>
 			<div className={styles.link_wrapper}>
-				<a onClick={() => router.push("/produtos")}>SOLICITAR ORÇAMENTO</a>
+				<a onClick={() => router.push("/contato")}>SOLICITAR ORÇAMENTO</a>
 				<div className={styles.icon}>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

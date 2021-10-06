@@ -1,15 +1,12 @@
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
+import styles from "../styles/containers/Produtos.module.scss";
 
 export default function ProdutosPage() {
   return (
-    <div>
+    <div className={styles.container}>
       <Menu />
-      <div>
-        <div>
-          <h1>PRODUTOS</h1>
-        </div>
-      </div>
+      
       <Footer />
     </div>
   );

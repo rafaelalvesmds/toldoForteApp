@@ -1,15 +1,12 @@
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
+import styles from "../styles/containers/Sobre.module.scss";
 
 export default function SobrePage() {
   return (
-    <div>
+    <div className={styles.container}>
       <Menu />
-      <div>
-        <div>
-          <h1>Sobre</h1>
-        </div>
-      </div>
+      
       <Footer />
     </div>
   );
