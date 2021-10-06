@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1%;
+    
+  .options {
+    padding-top: 2%;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    width: 100%;
+  }
+
+  .eachOption {
+    padding-left: 5%;
+    padding-left: 5%;
+    transition: all 0.2 ease-in;
+    color: var(--white);
+    font-weight: 700;
+
+    
+		&::after {
+			margin-top: 0.2rem;
+			display: block;
+			content: '';
+			border-bottom: solid 2px #EC980D;
+			transform: scaleX(0);
+			transition: transform 250ms ease-in-out;
+		}
+
+		&:hover {
+			opacity: 0.8;
+            cursor: pointer;
+		}
+
+		&:hover::after {
+			transform: scaleX(1);
+		}
+	
+  }
+
+  .logo {
+    width: 150px;
+    font-weight: 700;
+    color: #EC980D;
+    &:hover {
+        cursor: pointer;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+  }
+  
+  
+
+}
+
+

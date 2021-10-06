@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height: 657px;
+    background-color:seagreen;
+    opacity: 0.999;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+
+        .title {
+            font-size: 30px;
+            padding-bottom: 10%;
+            color: var(--white);
+        }
+    }
+}
