@@ -1,61 +1,89 @@
 .container {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  opacity: 0.999;
-  background-color: black;
-  // background-image: url("/images/background2.jpeg");
-  // background-size: cover;
-  // background-repeat: no-repeat;
+  flex-wrap: wrap;
+  background-image: url('/images/fundo.jpg');
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: contain;
+  border-bottom: 20% ;
+ 
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 
-  .content {
-    padding: 2% 0 2% 0;
+    .logo {
+      padding: 5%;
+      width: 40%;
+    }
+
+    .sub{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      color: var(--white);
+    }
+    .text {
+      display: flex;
+      width: 30%;
+      justify-content:center;
+      align-items: center;
+      color: var(--white);
+      font-weight:lighter;
+      padding: 2% 0 2% 0;
+    }
+    
+    .btn {
+      margin: 5% 0 5% 0;
+      background-color: var(--white);
+      padding: 1%;
+      border-radius: 20px;
+      transition: 0.4s;
+    }
+    .btn:hover {
+      background-color: var(--secondary-color);
+      color: var(--white);
+      cursor: pointer;
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+
+  .boxCards {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-around;
 
-    .box {
+    .nossosPedidos {
+      margin: 5% 0 5% 0;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      .title {
-        font-size: 40px;
-        color: var(--white);
-        padding-bottom: 30%;
-      }
+      justify-content: center;
+      padding: 3%;
+      width: 100%;
+      background-color: var(--white);
+      font-size: 30px;
+    }
+    
+    .card{
+      width: 300px;
     }
 
-    .produtos {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      align-items: center;
-
-      p {
-        margin: 3% 0 3% 0;
-        background-color:var(--white);
-        width: 100%;
-        text-align: center;
-        padding: 3%;
-        font-size: 40px;
-        color: var(--black);
-      }
-
-      .cards {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-
-      .card {
-        margin: 1%;
-        background-color: blue;
-        width: 300px;
-        height: 300px;
-      }
+    .card:hover{
+      cursor: pointer;
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
     }
   }
-}
+
