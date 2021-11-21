@@ -1,11 +1,4 @@
-import {
-  useColorMode,
-  Switch,
-  Flex,
-  Button,
-  Icon,
-  IconButton,
-} from "@chakra-ui/react";
+import { Flex, Button, IconButton } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import NextLink from "next/link";
@@ -26,7 +19,7 @@ export default function Header() {
   const [display, changeDisplay] = useState("none");
 
   return (
-    <Flex  >
+    <Flex>
       <div className={styles.header}>
         <div className={styles.logo} onClick={() => router.push("/")}>
           <img src="images/logo.png" />
