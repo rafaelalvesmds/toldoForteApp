@@ -4,7 +4,7 @@ import React from "react";
 import { Image } from "@chakra-ui/image";
 import { Box, Badge } from "@chakra-ui/layout";
 import Icon from "@chakra-ui/icon";
-import Menu from "../components/Menu";
+import Header from "../components/Header";
 
 export default function HomePage() {
   const property = [
@@ -102,22 +102,34 @@ export default function HomePage() {
 
   return (
     <div className={styles.container}>
-      <Menu />
-      <div className={styles.box}>
-        <div className={styles.logo}>
-          <img src="images/logo.png" />
-        </div>
-        <p className={styles.sub}>🚀 A MELHOR SOLUÇÃO EM TOLDOS</p>
-        {/* <p className={styles.text}>
-          Qualidade, tecnologia e inovação em toldos para as mais diversas
-          aplicações residenciais e comerciais.
-        </p> */}
+      <div className={styles.fundoPrincipal}>
+        <Header />
+        <div className={styles.box}>
 
-        <button className={styles.btn}>FAÇA SEU ORÇAMENTO</button>
+        <div className={styles.box2}>
+            {/* <img src="https://png.pngtree.com/png-vector/20190515/ourlarge/pngtree-red-striped-awnings-vector-illustration-png-image_1043902.jpg"/> */}
+            <p className={styles.text}>A MELHOR SOLUÇÃO EM TOLDOS</p>
+            <img src="/images/toldo.png"/>
+            <p>
+              Qualidade, tecnologia e inovação em toldos para as mais diversas
+              aplicações residenciais e comerciais
+            </p>
+          </div>
+
+          <div className={styles.box1}>
+            
+            <h1 className={styles.title}>TOLDOS E COBERTURAS</h1>
+      
+            <button className={styles.btn}>VEJA NOSSOS PRODUTOS</button>
+          </div>
+
+          
+          
+        </div>
       </div>
 
       <div className={styles.boxCards}>
-        <div className={styles.nossosPedidos}>
+        <div className={styles.nossosServicos}>
           <h1>Nossos Serviços</h1>
         </div>
         {property.map((property, index) => {
