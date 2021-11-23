@@ -36,20 +36,30 @@ export default function HomePage() {
       </div>
 
       <div className={styles.fundoTela2}>
-      <h1 className={styles.titleTela2}>OS MAIS PEDIDOS</h1>
+        <h1 className={styles.titleTela2}>OS MAIS PEDIDOS</h1>
+
         <div className={styles.boxTela2}>
           <div className={styles.box1Tela2}>
             <img className={styles.imgTela2} src="https://bit.ly/2Z4KKcF" />
           </div>
 
           <div className={styles.box2Tela2}>
-            <h1>AAAAAAAAAAAAAAA</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Necessitatibus, quibusdam dolorum! Officia facere illum fugiat?
-              Nobis impedit, et ipsum quibusdam magni aliquid cum tempora
-              eligendi laborum, dignissimos mollitia harum similique.
-            </p>
+            <div className={styles.listraLaranja}></div>
+            <div className={styles.textTela2}>
+              <h1 className={styles.titleBox2Tela2}>AAAAAAAAAA AAAAAAAA</h1>
+              <p className={styles.textBox2Tela2}>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus, quibusdam dolorum! Officia facere illum fugiat?
+                Nobis impedit, et ipsum quibusdam magni aliquid cum tempora
+                eligendi laborum, dignissimos mollitia harum similique.
+              </p>
+              <button
+                className={styles.btnTela2}
+                onClick={() => router.push("/produtos")}
+              >
+                VEJA MAIS
+              </button>
+            </div>
           </div>
         </div>
       </div>

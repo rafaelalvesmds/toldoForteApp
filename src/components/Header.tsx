@@ -19,20 +19,20 @@ export default function Header() {
   const [display, changeDisplay] = useState("none");
 
   return (
-    <Flex>
+    <Flex position="fixed"  w="100%">
       <div className={styles.header}>
         <div className={styles.logo} onClick={() => router.push("/")}>
           <img src="images/logo.png" />
         </div>
         <div className={styles.options}>
-          <Flex align="center" display={["none", "none", "flex", "flex"]}>
+          <Flex align="center" display={["none", "none", "flex", "flex"]} w="100%">
             <NextLink href="/" passHref>
               <Button
                 as="a"
                 variant="ghost"
                 aria-label="Home"
                 my={5}
-                w="150px"
+                w="100%"
                 mr="2%"
               >
                 HOME
@@ -45,8 +45,8 @@ export default function Header() {
                 variant="ghost"
                 aria-label="Home"
                 my={5}
-                w="150px"
                 mr="2%"
+                w="100%"
               >
                 PRODUTOS
               </Button>
@@ -58,8 +58,8 @@ export default function Header() {
                 variant="ghost"
                 aria-label="Home"
                 my={5}
+                w="100%"
                 mr="2%"
-                w="150px"
               >
                 SOBRE
               </Button>
@@ -71,7 +71,7 @@ export default function Header() {
                 variant="ghost"
                 aria-label="Home"
                 my={5}
-                w="150px"
+                w="100%"
                 mr="2%"
                 backgroundColor="var(--main-color)"
                 color="var(--secondary-color)"
