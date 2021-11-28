@@ -10,68 +10,69 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     width: 100%;
 
-    .box {
-      margin-top: 90px;
+    .box1 {
+      margin-top: 120px;
       display: flex;
       flex-direction: row;
       width: 100%;
       flex-wrap: wrap;
       justify-content: space-around;
+      margin-bottom: 50px;
 
-      .box1 {
+      .boxA1 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 350px;
-        margin: 3%;
-        color: var(--white);
-        margin: 7% 2% 7% 2%;
+        width: 600px;
+        margin: 2%;
       }
 
-      .box2 {
+      .boxB1 {
         font-size: 18px;
-        padding: 2% 2% 2% 2%;
-        width: 350px;
+        width: 600px;
         color: var(--white);
         text-align: center;
-        margin: 3%;
+        margin: 2%;
         display: flex;
         flex-direction: column;
         background-image: var(--gradiente--2);
         color: var(--white);
         border-radius: 10px;
         box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
-        margin: 7% 2% 7% 2%;
+        padding: 2%;
+        justify-content: space-around;
       }
 
-      .text {
+      .text1 {
         margin-bottom: 15%;
+        color: var(--main-color);
       }
 
-      .title {
+      .title1 {
         width: 100%;
         background-image: var(--gradiente--2);
         border-radius: 10px;
-        padding: 5%;
+        padding: 8%;
         box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+        color: var(--white);
       }
 
-      .btn {
-        background-image: var(--gradiente--2);
-        color: var(--white);
+      .btn1 {
+        background-image: var(--gradiente--6);
+        color: var(--black);
         padding: 2% 0 2% 0;
         width: 100%;
         border-radius: 10px;
         transition: 0.4s;
         box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
-        border: solid;
-        margin-top: 20%;
+        margin-top: 5%;
       }
-      .btn:hover {
+      .btn1:hover {
         background-image: var(--gradiente--2);
         box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
         color: var(--main-color);
@@ -94,146 +95,243 @@
     flex-direction: column;
     width: 100%;
 
-    .titleTela2 {
+    .title2 {
       display: flex;
       justify-content: center;
       width: 100%;
-      font-size: 35px;
+      font-size: 25px;
       padding: 4% 0 4% 0;
       color: var(--main-color);
     }
 
-    .boxTela2 {
+    .box2 {
       width: 100%;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       flex-wrap: wrap;
       padding: 0 2% 0 2%;
-      margin-bottom: 7%;
+      margin-bottom: 5%;
 
-      .box1Tela2 {
+      .boxA2 {
         width: 600px;
-        margin: 5% 1% 5% 1%;
+        margin: 30px 1% 30px 1%;
       }
 
-      .box2Tela2 {
+      .boxB2 {
         width: 600px;
         display: flex;
-        margin: 5% 1% 5% 1%;
-
-        .listraLaranja {
-          height: 100%;
-          background-color: var(--main-color);
-          width: 5px;
-          border-radius: 10px;
-        }
-
-        .textTela2 {
-          display: flex;
-          flex-direction: column;
-          width: 100%;
-          justify-content: space-between;
-          margin-left: 10%;
-
-          .titleBox2Tela2 {
-            display: flex;
-            font-size: 25px;
-            margin-bottom: 15%;
-          }
-
-          .textBox2Tela2 {
-            display: flex;
-            font-size: 20px;
-            margin-bottom: 15%;
-          }
-
-          .btnTela2 {
-            background-color: var(--main-color);
-            color: var(--black);
-            padding: 2% 0 2% 0;
-            width: 100%;
-            border-radius: 10px;
-            transition: 0.4s;
-            box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
-            border: solid;
-            font-size: 20px;
-          }
-
-          .btnTela2:hover {
-            background-color: transparent;
-            box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
-            color: var(--black);
-            cursor: pointer;
-            -webkit-transform: scale(1.1);
-            -moz-transform: scale(1.1);
-            -o-transform: scale(1.1);
-            -ms-transform: scale(1.1);
-            transform: scale(1.1);
-          }
-        }
+        margin: 30px 1% 30px 1%;
       }
 
-      .imgTela2 {
+      .listra2 {
+        height: 100%;
+        background-color: var(--main-color);
+        width: 5px;
+        border-radius: 10px;
+      }
+
+      .boxBA2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 10%;
+      }
+
+      .titleBA2 {
+        display: flex;
+        font-size: 25px;
+        margin-bottom: 15%;
+      }
+
+      .textBA2 {
+        display: flex;
+        font-size: 20px;
+        margin-bottom: 15%;
+      }
+
+      .btn2 {
+        background-color: var(--main-color);
+        color: var(--black);
+        padding: 2% 0 2% 0;
+        width: 100%;
+        border-radius: 10px;
+        transition: 0.4s;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+        border: solid;
+        font-size: 20px;
+      }
+
+      .btn2:hover {
+        background-color: transparent;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+        color: var(--black);
+        cursor: pointer;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+
+      .img2 {
         border-radius: 10px;
       }
     }
   }
+
+  .fundoTela3 {
+    background-image: url("/images/fundo3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .box3 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 0 2% 0 2%;
+      justify-content: center;
+      margin: 4% 0 4% 0;
+     
+
+      .boxCardA3 {
+        width: 280px;
+        margin: 7% 1% 1% 1%;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+      .boxCardB3 {
+        width: 280px;
+        margin: 1%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: solid;
+        border-radius: 10px;
+      }
+
+      .boxes3 {
+        width: 600px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 1%;
+        font-weight: 700;
+      }
+
+      .traco3 {
+        width: 60%;
+        background-image: var(--gradiente--1);
+        height: 3px;
+        border-radius: 10px;
+      }
+
+      .title3 {
+        margin: 10% 0 10% 0;
+        font-size: 20px;
+      }
+
+      .btn3 {
+        background-color: var(--main-color);
+        color: var(--black);
+        padding: 2% 0 2% 0;
+        width: 100%;
+        border-radius: 10px;
+        transition: 0.4s;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+        border: solid;
+        font-size: 20px;
+      }
+
+      .btn3:hover {
+        background-color: transparent;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+        color: var(--black);
+        cursor: pointer;
+      }
+    }
+  }
 }
 
-@media only screen and (min-width: 959px) {
-  .text,
-  .btn {
+@media only screen and (min-width: 1px) {
+  .text1,
+  .btn1 {
     font-size: 23px;
   }
-  .title {
+  .title1 {
     font-size: 40px;
   }
 }
 
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  .text,
-  .btn {
-    font-size: 23px;
+@media only screen and (max-width: 1080px) {
+  .container .fundoTela1 .box1 {
+    justify-content: center;
   }
-  .title {
-    font-size: 38px;
+
+  .container .fundoTela1 .box1 .boxCardA1 {
+    justify-content: space-between;
   }
 }
 
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
-  .text,
-  .btn {
-    font-size: 23px;
-  }
-  .title {
-    font-size: 36px;
+@media only screen and (max-width: 600px) {
+  .container .fundoTela1 .box1 {
+    margin-top: 80px;
   }
 }
+// /* Tablet Portrait size to standard 960 (devices and browsers) */
+// @media only screen and (min-width: 768px) and (max-width: 959px) {
+//   .text1,
+//   .btn1 {
+//     font-size: 23px;
+//   }
+//   .title1 {
+//     font-size: 38px;
+//   }
+// }
 
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .text,
-  .btn {
-    font-size: 19px;
-  }
-  .title {
-    font-size: 30px;
-  }
-}
+// /* All Mobile Sizes (devices and browser) */
+// @media only screen and (max-width: 767px) {
+//   .text1,
+//   .btn1 {
+//     font-size: 23px;
+//   }
+//   .title1 {
+//     font-size: 36px;
+//   }
+// }
 
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
-  .text,
-  .btn {
-    font-size: 19px;
-    .title {
-      font-size: 28px;
-    }
-  }
-}
+// /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+// @media only screen and (min-width: 480px) and (max-width: 767px) {
+//   .text1,
+//   .btn1 {
+//     font-size: 19px;
+//   }
+//   .title1 {
+//     font-size: 30px;
+//   }
+// }
+
+// /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+// @media only screen and (max-width: 479px) {
+//   .text1,
+//   .btn1 {
+//     font-size: 19px;
+//     .title1 {
+//       font-size: 28px;
+//     }
+//   }
+// }
 
 // opacity: 0;
 // -webkit-animation: fadeIn 3s ease-in-out;

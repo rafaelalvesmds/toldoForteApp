@@ -5,6 +5,7 @@
   height: 657px;
 
   .boxCards {
+    margin-top: 90px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -20,7 +21,7 @@
     }
 
     .card {
-      margin: 2% 0 2% 0;
+      margin: 2%;
       width: 300px;
       background-image: var(--gradiente--1);
     }
