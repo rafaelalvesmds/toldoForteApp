@@ -72,22 +72,20 @@ export default function HomePage() {
             <div className={styles.boxCardA3}>
               <div className={styles.traco3}></div>
               <h1 className={styles.title3}>Experiência</h1>
-              <p>
+              <p className={styles.text3}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
                 excepturi, cum modi tenetur quasi voluptatem labore consequatur
-                veniam fuga corrupti! Dolor qui consequuntur quod recusandae
-                eveniet debitis tempore! Adipisci, voluptas.
+                veniam fuga corrupti! Dolor qui consequunt
               </p>
             </div>
 
             <div className={styles.boxCardA3}>
               <div className={styles.traco3}></div>
               <h1 className={styles.title3}>Inovação</h1>
-              <p>
+              <p className={styles.text3}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
                 excepturi, cum modi tenetur quasi voluptatem labore consequatur
-                veniam fuga corrupti! Dolor qui consequuntur quod recusandae
-                eveniet debitis tempore! Adipisci, voluptas.
+                veniam fuga corrupti! Dolor qui consequunt
               </p>
             </div>
           </div>
@@ -96,19 +94,18 @@ export default function HomePage() {
             <div className={styles.boxCardA3}>
               <div className={styles.traco3}></div>
               <h1 className={styles.title3}>Garantia</h1>
-              <p>
+              <p className={styles.text3}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
                 excepturi, cum modi tenetur quasi voluptatem labore consequatur
-                veniam fuga corrupti! Dolor qui consequuntur quod recusandae
-                eveniet debitis tempore! Adipisci, voluptas.
+                veniam fuga corrupti! Dolor qui consequunt
               </p>
             </div>
             <div className={styles.boxCardB3}>
               <p className={styles.title3}>aaaaaaa aaaaaa aaaaa</p>
-              <h1>
+              <p className={styles.text3}>
                 Envie uma mensagem ou entre em contato conosco por um de nossos
                 canais de atendimento
-              </h1>
+              </p>
               <button
                 className={styles.btn3}
                 onClick={() => router.push("/contato")}
@@ -116,6 +113,39 @@ export default function HomePage() {
                 Faça um orçamento
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.fundoTela4}>
+        <div className={styles.box4}>
+          <h1 className={styles.title4}>A TOLDO FORTE</h1>
+
+          <div className={styles.boxA4}>
+            <img className={styles.img4} src="https://bit.ly/2Z4KKcF" />
+
+            <p className={styles.text4}>
+              A ToldoForte assume o compromisso de lhe atender de maneira
+              personalizada e oferecer o que há de melhor em tecnologia e
+              acabamento de toldos e coberturas. Esse diferencial é a garantia
+              de uma empresa comprometida com cada um de seus clientes. image Um
+              processo de melh para que os Produtos sejam de alta qualidade. Na
+              produção temos pessoal especializado utilizando técnicas refinadas
+              e máquinas modernas, que permitem exatidão desde o início da
+              fabricação de um toldo.
+            </p>
+          </div>
+
+          <div className={styles.boxA4}>
+            <p className={styles.text4}>
+              Somos uma empresa que caminha junto à tecnologia, fabricando
+              produtos com qualidade, design e estrutura que concilia beleza e
+              robustez. Com sede própria e ampla área fabril para podermos
+              desenvolver os mais variados tipos de serviços, que são sempre sob
+              medida para atendimento personalizado e solução de seus problemas.
+            </p>
+
+            <img className={styles.img4} src="https://bit.ly/2Z4KKcF" />
           </div>
         </div>
       </div>
