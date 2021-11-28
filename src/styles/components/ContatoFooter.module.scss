@@ -1,0 +1,36 @@
+.boxFooter {
+  padding: 0 2% 0 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  margin: 5% 0 5% 0;
+  background-color: white;
+}
+
+.boxCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 500px;
+  color: rgb(24, 24, 202);
+  font-weight: 700;
+}
+
+.cardContato {
+  width: 500px;
+  margin: 5% 2% 2% 2%;
+}
+
+.titleContato {
+  text-align: center;
+  color: var(--black);
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.btnContato {
+  margin-top: 20px;
+}

@@ -3,6 +3,7 @@ import styles from "../styles/containers/Home.module.scss";
 import React from "react";
 import Header from "../components/Header";
 import { useRouter } from "next/router";
+import ContatoFooter from "../components/ContatoFooter";
 
 export default function HomePage() {
   const router = useRouter();
@@ -149,7 +150,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-
+      <ContatoFooter/>
       <Footer />
     </div>
   );
