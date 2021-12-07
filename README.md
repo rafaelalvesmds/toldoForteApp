@@ -16,11 +16,14 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ### Clone este repositório
-  $ git clone https://github.com/mastermaqsoftware/Passaporte.Site.git
+  $ git clone https://github.com/rafaelalvesmds/toldoForteApp.git
   
 ### Instale as dependências
   $ yarn install
   
+
+# 📦 CONFIGURAÇÃO DO PROJETO
+
   <!-- To create a project, run: -->
 yarn create next-app
 
