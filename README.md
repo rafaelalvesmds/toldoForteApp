@@ -32,6 +32,12 @@ yarn create next-app
 <!-- Install next, react and react-dom in your project: -->
 yarn add next react react-dom
 
+yarn add typescript @types/react @types/node -D
+
+yarn add sass
+
+yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
+
 <!-- //Open package.json and add the following scripts: -->
 "scripts": {
   "dev": "next dev",
@@ -40,15 +46,10 @@ yarn add next react react-dom
   "lint": "next lint"
 }
 
-yarn add typescript @types/react @types/node -D
-
-yarn add sass
-
-yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
-
 
 <br/><br/>
 	    
 # 📚 AUTOR
 
-## Rafael Alves
+### Rafael Alves
+<td align="center"><img src="https://avatars.githubusercontent.com/u/84939473?v=4" width="100"></td>
