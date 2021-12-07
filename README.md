@@ -17,5 +17,3 @@ yarn add typescript @types/react @types/node -D
 yarn add sass
 
 yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
-
-import {useRouter} from 'next/router'; 
