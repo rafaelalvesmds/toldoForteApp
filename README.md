@@ -21,6 +21,9 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ### Instale as dependências
   $ yarn install
   
+### Inicie a aplicação
+  $ yarn dev
+  
 <br/><br/>
   
 
