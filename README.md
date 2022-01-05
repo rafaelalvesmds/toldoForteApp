@@ -20,6 +20,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
   
 ### Instale as dependências
   $ yarn install
+  $ yarn add next react react-dom
   
 ### Inicie a aplicação
   $ yarn dev
