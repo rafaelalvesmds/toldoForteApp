@@ -19,7 +19,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
   $ git clone https://github.com/rafaelalvesmds/toldoForteApp.git
   
 ### Instale as dependências
-  $ yarn install
+  $ yarn install <br/>
   $ yarn add next react react-dom
   
 ### Inicie a aplicação
