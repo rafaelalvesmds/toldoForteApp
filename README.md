@@ -31,16 +31,16 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 # 📦 CONFIGURAÇÃO DO PROJETO
 
   <!-- To create a project, run: -->
-yarn create next-app
+  $ yarn create next-app
 
 <!-- Install next, react and react-dom in your project: -->
-yarn add next react react-dom
+  $ yarn add next react react-dom
 
-yarn add typescript @types/react @types/node -D
+  $ yarn add typescript @types/react @types/node -D
 
-yarn add sass
+  $ yarn add sass
 
-yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
+  $ yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
 
 <!-- //Open package.json and add the following scripts: -->
 "scripts": {
