@@ -10,29 +10,29 @@ export default function ContatoFooter() {
       <div className={styles.boxCard}>
         <Link margin="8px">Toldo abcdefgh</Link>
         <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
+        <Link margin="8px">Toldo exemple</Link>
         <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
+        <Link margin="8px">Toldo exemple</Link>
         <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
+        <Link margin="8px">Toldo exemple</Link>
         <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
+        <Link margin="8px">Toldo exemple</Link>
         <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
+        <Link margin="8px">Toldo exemple</Link>
         <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
+        <Link margin="8px">Toldo exemple</Link>
         <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
+        <Link margin="8px">Toldo exemple</Link>
         <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
+        <Link margin="8px">Toldo exemple</Link>
         <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
+        <Link margin="8px">Toldo exemple</Link>
         <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
+        <Link margin="8px">Toldo exemple</Link>
         <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
+        <Link margin="8px">Toldo exemple</Link>
         <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
+        <Link margin="8px">Toldo exemple</Link>
         <br />
       </div>
 
