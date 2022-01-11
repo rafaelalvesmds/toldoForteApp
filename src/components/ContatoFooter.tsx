@@ -34,10 +34,6 @@ export default function ContatoFooter() {
         <br />
         <Link margin="8px">Toldo abcdefgh</Link>
         <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
-        <br />
-        <Link margin="8px">Toldo abcdefgh</Link>
-        <br />
       </div>
 
       <div className={styles.cardContato}>
